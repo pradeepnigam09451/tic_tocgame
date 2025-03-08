@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Document</title>
+         <style>
+                  body{
+                           margin: 0;
+                           padding: 0;
+                           text-align: center;
+                           background-color: rgb(40, 108, 123);
+                  }
+                  .main{
+                          height: 70vh;
+                          display: flex;
+                          justify-content: center;
+                          align-items: center;
+                  }
+                  
+                  .container{
+                           height: 60vh;
+                           width: 60vmin;
+                           display: flex;
+                           flex-wrap: wrap;
+                         
+                           justify-content: center;
+                           align-items: center;
+                           gap: 1.5vmin;
+                  }
+                 
+                  .box{
+                           height: 18vmin;
+                           width: 18vmin;
+                  }
+                  #reset{
+                           width: 150px;
+                           height: 25px;
+                           background-color: rgb(54, 108, 110);
+
+                  }
+                  
+                  
+         </style>
+</head>
+<body>
+         <div class="msg-container">
+                  <p id="msg">winner</p>
+                  <button id="new-btn">new game</button>
+         </div>
+         <div class="main">
+                  <div class="container">
+                           <button class="box"></button>
+                           <button class="box"></button>
+                           <button class="box"></button>
+                           <button class="box"></button>
+                           <button class="box"></button>
+                           <button class="box"></button>
+                           <button class="box"></button>
+                           <button class="box"></button>
+                           <button class="box"></button>
+
+                           <button id = "reset"> reset </button>
+                  </div>
+
+                
+                 
+         </div>
+         <script src="tictoctac.js"> </script>
+</body>
+</html>
